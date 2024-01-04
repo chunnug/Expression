@@ -32,7 +32,7 @@ if the equation cannot be parsed, it will either return the expression in the fi
 2 (
 ```
 ## Acknowlegement
--Base code and comments, not including the Javadoc for my methods, were done by Sridhar Alagar 
+*Base code and comments, not including the Javadoc for my methods, were done by Sridhar Alagar 
 
 
 
