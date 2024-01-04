@@ -13,6 +13,24 @@ The methods I have coded are the following
 
 
 ## tests
+### Test infix expressions
+The result should properly write infix as is and convert to postfix, keeping in mind PEMDAS order
+```
+253 + 746
+999 + 0
+( 13 * 12 ) - ( 48 / 3 ) + 66
+3 + 4 * 5 - 10
+( 21 * 370 / ( 482 + 50 - 32 * ( 2 + 4 ) / 71 ) ) ^ 2
+2 ^ ( 3 + 2 ) ^ 2 - 1
+( 1 + 2 * 3 - 4 % 5 + 6 * 7 - 8 / 9 * 10 + 11 - 12 * 13 + 14 / 15 - 16 + 17 * 18 - 19 * 20 ) 
+```
+## Test edge cases
+if the equation cannot be parsed, it will either return the expression in the first case, or an error if the equation is not properly inputted in the second case
+
+```
+42
+2 (
+```
 
 
 
