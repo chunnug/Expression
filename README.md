@@ -24,13 +24,15 @@ The result should properly write infix as is and convert to postfix, keeping in 
 2 ^ ( 3 + 2 ) ^ 2 - 1
 ( 1 + 2 * 3 - 4 % 5 + 6 * 7 - 8 / 9 * 10 + 11 - 12 * 13 + 14 / 15 - 16 + 17 * 18 - 19 * 20 ) 
 ```
-## Test edge cases
+### Test edge cases
 if the equation cannot be parsed, it will either return the expression in the first case, or an error if the equation is not properly inputted in the second case
 
 ```
 42
 2 (
 ```
+## Acknowlegement
+-Base code and comments, not including the Javadoc for my methods, were done by Sridhar Alagar 
 
 
 
