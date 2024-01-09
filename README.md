@@ -31,7 +31,7 @@ if the equation cannot be parsed, it will either return the expression in the fi
 42
 2 (
 ```
-## Acknowlegement
+## Acknowledgment
 * Base code and comments, not including the Javadoc for my methods, were done by Sridhar Alagar 
 
 
